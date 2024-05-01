@@ -1,5 +1,4 @@
 let letters = [..."Hello world"];
-
 console.log(letters);
 let string = "";
 for (let letter of letters) {
