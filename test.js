@@ -1,20 +1,43 @@
-let letters = [..."Hello world"];
-console.log(letters);
-let string = "";
-for (let letter of letters) {
-  string += letter;
-}
-console.log(string);
+// let account=[[1,2,3],[4,5,6]];
 
-let everyother = "";
-for (let [index, letter] of letters.entries())
-  if (index % 2 === 0) everyother += letter;
-console.log(everyother);
+// let n1=0;
+// for (let i = 0; i <= account.length; i++) {
+//   let n2=0;
+//   for (let j = 0; j <= account[i].length; j++) {
+//     n2 +=account[i][j];
+//   }
+//   n1=Math.max(n1,n2);
+// }
 
-let myArray = []; // Creating an empty array
+// const maximumWealth=function(accounts){
 
-myArray = myArray.concat("apple"); // Concatenating "apple" to the array
-myArray = myArray.concat("banana"); // Concatenating "banana" to the array
-myArray = myArray.concat("orange"); // Concatenating "orange" to the array
+//   let n1=0;
+//   for (let i = 0; i < accounts.length; i++) {
+//     let n2=0;
+//     for (let j = 0; j < accounts[i].length; j++) {
+//       n2 +=accounts[i][j];
+//     }
+//     n1=Math.max(n1,n2);
+//   }
 
-console.log(myArray);
+//   return n1;
+
+// };
+// console.log(maximumWealth([[1,2,3],[4,5,6]]));
+// console.log(maximumWealth([[1,2,3],[4,5,6],[1,2,3,4,5,6]]));
+
+let nums = [1, 2, 3, 4, 5, 6];
+nums[0] = nums[0].toString();
+nums[1] = nums[1].toString();
+
+console.log(nums);
+
+// const runningSum = function (nums) {
+//   for (let i = 1; i < nums.length; i++) {
+//     nums[i] += nums[i];
+//   }
+
+//   return nums;
+// };
+
+// console.log(runningSum([1, 2, 3, 4, 5, 6]));
