@@ -25,7 +25,6 @@ console.log(
   compress([
     "a",
     "a",
-
     "b",
     "b",
     "b",
