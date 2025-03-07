@@ -1,9 +1,10 @@
 var isPowerOfTwo = function (n) {
-  if (n % 2 === 0) {
-    return true;
+  let num = 1;
+  while (num < n) {
+    num *= 2;
   }
 
-  return false;
+  return num === n;
 };
 
 console.log(isPowerOfTwo(16));
